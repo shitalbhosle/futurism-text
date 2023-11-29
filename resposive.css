@@ -1,0 +1,202 @@
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+
+    .intialhead {
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .search-parent {
+        display: none;
+    }
+
+    .llc-container {
+        flex-direction: column;
+    }
+
+    .llc-left {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .llc-right {
+        margin: 0;
+    }
+
+    .llc-right p {
+        margin-top: 16px;
+    }
+
+    .llc-right h1 {
+        font-size: 25px;
+    }
+
+    .selling-text {
+        margin: 20px 10px;
+    }
+
+    .file-container {
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .file-container p {
+        text-align: center;
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+
+    .upload-btn {
+        height: auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+    .company-logo-container {
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: auto;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .card-header {
+        gap: 15px;
+    }
+
+    .cards {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-img {
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    .company-text {
+        font-size: 24px;
+    }
+
+    .fa-bars {
+        color: #00BCEB;
+        font-size: 2rem;
+        display: flex;
+    }
+
+
+    .main-text {
+        display: block;
+        font-size: 42px;
+        padding: 10px 0;
+    }
+
+    .truck,
+    .plane,
+    .customer {
+        width: 100%;
+        height: 100%;
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cards {
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .company-logo-parent {
+        width: 80%;
+    }
+
+    .llc-container {
+        flex-direction: column;
+    }
+
+    .company-logo-container {
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+
+    .search-parent {
+        width: 85%;
+        margin: auto;
+    }
+
+    .hero-right {
+        padding-top: 140px;
+    }
+
+    .nav-container .nav-links,
+    .quote-btn {
+        display: none;
+    }
+
+    .header-none {
+        display: none;
+    }
+
+    .file-container {
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .file-container p {
+        text-align: center;
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+
+    .upload-btn {
+        /* width: 100%; */
+        height: auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+}
